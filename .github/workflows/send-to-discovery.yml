@@ -22,7 +22,7 @@ jobs:
     - uses: ibm-apiconnect/apic-discovery-action@main 
       id: discover-apis
       with:
-        api_host: mexico-april-420eb34f056ae68f3969289d61f61851-0000.us-south.containers.appdomain.cloud
+        api_host: api-manage-e8a163cd-platform-api-tech-jam-apic
         platform_api_prefix: ${{ env.PLATFORM_API_PREFIX }}
         provider_org: tech-jam-19
         PLATFORM_API_PREFIX: api-manage-1720ed5d-platform-api-tech-jam-apic
